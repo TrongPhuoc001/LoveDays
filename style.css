@@ -29,7 +29,9 @@ h1{
 .YnM-container {
     display: flex;
 }
-
+#allday{
+    color: rgba(215, 252, 5, 0.568);
+}
 .big-text {
     font-size: 5rem;
     font-weight: bold;
