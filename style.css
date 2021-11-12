@@ -1,4 +1,4 @@
-w@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
 
 * {
     box-sizing: border-box;
@@ -6,20 +6,18 @@ w@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&d
 }
 
 body {
-    background-image:url("https://i.ibb.co/LhkNsXC/U.png") ;
-    background-position: center center;
+    background-image:url("https://i.ibb.co/NxWHhhL/U.png");
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    min-height: 100vh;
     font-family: "Poppins",sans-serif;
     margin: 0;
+    color: rgb(74, 247, 126);
 }
 
 h1{
     font-size: 2rem;   
-    color: rgb(19, 27, 32);
 }
 .count-container {
     display: flex;
@@ -36,7 +34,6 @@ h1{
     font-size: 5rem;
     font-weight: bold;
     line-height: 1;
-    color: rgb(19, 27, 32);
     margin: 1rem 3rem 0; 
 }
 
@@ -46,7 +43,6 @@ h1{
 
 .count-el span {
     font-size: 1.4rem;
-    color: rgb(19, 27, 32);
 }
 
 label {
@@ -60,4 +56,38 @@ label {
 
 .video {
     height: 220px;
+    max-width: 300px;
+}
+@media (max-width:500px) {
+    body{
+        font-size: 16px;
+        overflow-x: hidden;
+    }
+    h1{
+        font-size: 16px;
+        
+    }
+    p{
+        padding: 0.25rem;
+        text-align: center;
+    }
+    .big-text {
+        font-size: 2rem;
+        font-weight: bold;
+        line-height: 1;
+        margin: 0.25rem 1rem 0; 
+    }
+    .memory-container {
+        flex-direction: column;
+    }
+    .count-el span {
+        font-size: 0.5rem;
+    }
+    
+    label {
+        font-size: 0.75rem;
+    }
+    audio{
+        width: 80%;
+    }
 }
