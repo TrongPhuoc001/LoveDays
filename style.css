@@ -6,7 +6,10 @@
 }
 
 body {
-    background-image:url("https://i.ibb.co/NxWHhhL/U.png");
+    background-image:url("./bgr.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,6 +67,7 @@ label {
     body{
         font-size: 16px;
         overflow-x: hidden;
+        background-image:url("https://i.ibb.co/NxWHhhL/U.png");
     }
     h1{
         font-size: 16px;
